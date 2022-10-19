@@ -1182,7 +1182,7 @@ if __name__ == '__main__':
 
     try:
         sys.argv.index("--about")
-        welcome()
+        #welcome()
         author()
         if len(sys.argv) == 2:
             sys.exit(0)
@@ -1191,7 +1191,7 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    welcome()
+    #welcome()
     level = args.level
     config = {
         "strings": args.strings or args.enable_all,
